@@ -28,12 +28,13 @@ Plaintext
 ##Daily Development Log:
 
 ### Day 1 — Bootloader Stub, Linker Script & VGA Memory (2026-10-03)
-- **Implemented:** Built initial Multiboot-compliant kernel entry in GNU Assembly (`boot.s`), freestanding C kernel (`kernel.c`), and linker script (`linker.ld`). Booted successfully in QEMU.
+
+- **Implemented:**Used existing code as reference for an initial Multiboot-compliant kernel entry in GNU Assembly (`boot.s`), freestanding C kernel (`kernel.c`), and linker script (`linker.ld`). Booted successfully in QEMU.
 - **Key Concepts:** Multiboot v1 header signatures (`0x1BADB002`), 32-bit Protected Mode initialization, 16 KiB call stack setup (`ESP`), memory section mapping at `0x100000` (1 MB), and volatile memory-mapped VGA writes.
 - **Challenges & Fixes:** 
   - **Toolchain & Syntax Mismatches:** Resolved assembly compilation errors when switching between Intel/NASM syntax and AT&T/GAS syntax (`as`).
   - **WSL2 Networking & Package Setup:** Fixed WSL2 DNS resolution and package manager connection issues to install `build-essential`, `qemu-system-x86`, and `binutils`.
-- **Status:** Bare-metal kernel binary builds cleanly and renders text directly to the screen inside QEMU.
+- **Status:** Bare-metal kernel binary builds cleanly and renders text directly to the screen inside QEMU. Understanding of syntax and logic is incomplete and flawed as almost all of the code was used pulled from existing reference.
 
 ### Day 2 — Beginning C: Syntax, Setup, and K&R Chapter 2 (2026-10-04)
 - **Implemented:** Started learning C properly and set up the development environment on my Sony VAIO laptop (`SVF153A1YW`).

@@ -35,6 +35,14 @@ Plaintext
   - **WSL2 Networking & Package Setup:** Fixed WSL2 DNS resolution and package manager connection issues to install `build-essential`, `qemu-system-x86`, and `binutils`.
 - **Status:** Bare-metal kernel binary builds cleanly and renders text directly to the screen inside QEMU.
 
+### Day 2 — Beginning C: Syntax, Setup, and K&R Chapter 2 (2026-10-04)
+- **Implemented:** Started learning C properly and set up the development environment on my Sony VAIO laptop (`SVF153A1YW`).
+- **Key Concepts:** C syntax familiarization, differences between C and Java, basic variable declarations, `printf`/`scanf` usage, and the structure of simple C programs.
+- **Challenges & Fixes:**
+  - **C vs Java Mental Model:** Adjusted to C’s more direct, low-level style, especially regarding memory and raw syntax.
+  - **Environment Setup:** Configured a local C development workflow on my laptop so I could compile and run small programs outside the kernel environment.
+- **Status:** I am getting comfortable with the language syntax and the basics of C program structure. I have also started Chapter 2 of K. N. King’s *C Programming: A Modern Approach*.
+
 ### Day 3 — C Basics: Input/Output, Variables, Macros, and Practice (2026-10-05)
 - **Implemented:** Wrote a small C program to practice `printf`, `scanf`, variables, arithmetic, and macro usage.
 - **Key Concepts:** `float` variables, `printf` with `%f` and `%10.2f`, `scanf` with the address-of operator `&`, `#define` macros, and basic arithmetic.

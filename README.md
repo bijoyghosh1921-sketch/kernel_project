@@ -51,3 +51,11 @@ Plaintext
   - **Magic Number Confusion:** Used a random constant (`167`) while experimenting with a macro; it compiled and worked, but it showed that unexplained values are not good practice.
   - **Code Clarity:** Added comments to explain the purpose of the exercise and why the constant existed, making the code easier to understand.
 - **Status:** Still learning the fundamentals, but the basics of input, output, and arithmetic are much clearer. I am ready to move into control flow and loops in K&R.
+
+### Day 4 - C Basics: Variables, Operators, Loops and Practice (2026-10-06)
+- **Implemented:** No major contribution to the repository, but built a program to use nested loops for pattern printing using my existing
+ java logic.
+- **Key Concepts:** Precedence of operators, functioning of the operators, unexpected side effects involving the operators, nested loops.
+- **Challenges & Fixes:**
+  - **Problems Involving the Print Buffer & Pattern Alignment:** Program appeared to hang with empty output in MSYS2 due to standard I/O stream buffering in Windows console; fixed by disabling buffering via `setbuf(stdout, NULL)`. 
+- **Status:** Fully cleared procedural I/O, format specifiers (`%-6.2g`), expression side effects (`++i` vs `i++`), and C-specific sequence points/undefined behavior. B 

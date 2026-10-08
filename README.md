@@ -58,4 +58,9 @@ Plaintext
 - **Key Concepts:** Precedence of operators, functioning of the operators, unexpected side effects involving the operators, nested loops.
 - **Challenges & Fixes:**
   - **Problems Involving the Print Buffer & Pattern Alignment:** Program appeared to hang with empty output in MSYS2 due to standard I/O stream buffering in Windows console; fixed by disabling buffering via `setbuf(stdout, NULL)`. 
-- **Status:** Fully cleared procedural I/O, format specifiers (`%-6.2g`), expression side effects (`++i` vs `i++`), and C-specific sequence points/undefined behavior. B 
+- **Status:** Fully cleared procedural I/O, format specifiers (`%-6.2g`), expression side effects (`++i` vs `i++`), and C-specific sequence points/undefined behavior.
+
+### Day 5 - C Basics: Control flow statements, loops and jump statements (2026-10-8)
+- **Implemented:** No major contribution to the repository
+- **Key Concepts:** Loop types and types of jump statements.
+- **Status:** Slowly getting used to C programming

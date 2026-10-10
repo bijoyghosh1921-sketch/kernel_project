@@ -64,3 +64,9 @@ Plaintext
 - **Implemented:** No major contribution to the repository
 - **Key Concepts:** Loop types and types of jump statements.
 - **Status:** Slowly getting used to C programming
+
+### Days 6–10 — Practice & Core C Fundamentals (2026-10-9 to -)
+- **Arrays & Memory Layout:** Explored contiguous memory allocation, multi-dimensional array mapping, and preparing for VGA text buffer manipulation.
+- **Pointers & Addresses (`&` and `*`):** Mastered raw memory addresses, dereferencing, and type-independent pointer casts.
+- **Pointer Arithmetic & Array Decay:** Discovered how arrays decay into pointers and how the CPU calculates offset addresses in memory.
+- **Low-Level Control Flow Experimentation:** Experimented with manual control-flow mapping using `goto` and assembly-style jump constructs to understand compiler loop generation.

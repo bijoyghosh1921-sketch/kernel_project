@@ -65,5 +65,7 @@ Plaintext
 - **Key Concepts:** Loop types and types of jump statements.
 - **Status:** Slowly getting used to C programming
 
-### Days 6–10 — Practice & Core C Fundamentals (2026-10-9 to ___)
+### Days 6 — Practice & Core C Fundamentals (2026-10-9)
 - **Low-Level Control Flow Experimentation:** Experimented with manual control-flow mapping using `goto` and assembly-style jump constructs to understand compiler loop generation.
+
+- 
